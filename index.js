@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Ініціалізація Parse SDK
 Parse.initialize('tbLcrYkzshV72QpCDQTNNlKEROIxCSJrCBsXkEjX', 'YJRICYfZQ9BSUivCYBEjX4GxJVxAXuxFu25RoNpg');
-Parse.serverURL = 'https://parseapi.back4app.com/';
+Parse.serverURL = 'mongodb://admin:pQqbsoiZzsG3UpMeM52AyLWp@MongoS3601A.back4app.com:27017/ea3f057f4b5c4a5d9d79e95c6c19b925';
 
 // Налаштування middleware для обробки POST-запитів
 app.use(bodyParser.urlencoded({ extended: true }));
